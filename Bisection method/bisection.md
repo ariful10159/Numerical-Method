@@ -39,7 +39,5 @@
 - টলারেন্স দুইভাবে পরীক্ষা করুন: interval width (b-a) < tol এবং |f(mid)| < tol — সাধারণত interval width দিয়ে কেটে দেবেন।
 - যদি দ্রুত ফলপ্রসূ পদ্ধতি চান এবং derivative পাওয়া যায়, Newton method প্রাধান্য দিন; কিন্তু Newton ব্যর্থ হতে পারে যদি initial guess খারাপ হয় — তখন bisection নিরাপদ ব্যাকআপ।
 
----
 
-চাইলে আমি এই নোটের সাথে একটি ছোট Python স্ক্রিপ্ট (`bisection_example.py`) যোগ করে দিতে পারি যা উদাহরণটি step-by-step দেখাবে। চান কি? 
 
